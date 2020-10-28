@@ -5358,3 +5358,9 @@ select {
 /*****************************************/
 
 /*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 475px){
+  .hide-icon {
+    display: none !important; 
+  }
+}
