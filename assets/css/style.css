@@ -1225,9 +1225,7 @@ input, select {
   padding: 150px 0;
 }
 
-.section-padding-lg {
-  /*padding: 120px 0;*/
-}
+
 
 .section-padding-md {
   padding: 100px 0;
@@ -5172,7 +5170,7 @@ input, select {
 
 .faequently-accordion h4 {
   font-size: 16px;
-  fon-weight: 600;
+  font-weight: 600;
   padding: 22px 55px 22px 30px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 1px;
