@@ -62,11 +62,11 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="header-toplinks">
-                                <li><a href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
+                                <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
                                             class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
+                                <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
                                             class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
@@ -81,7 +81,7 @@
                     <div class="header-bottom">
 
                         <!-- Header Logo -->
-                        <a href="index.html" class="header-logo">
+                        <a href="index.php" class="header-logo">
                             <!--<img src="assets/images/logo/logo.png" alt="header image">-->
                             <div>
                                 <h1 style="font-size: 25px;">CB Seguros Generales</h1>
@@ -92,10 +92,10 @@
                         <!-- Main Navigation -->
                         <nav class="in-navigation">
                             <ul>
-                                <li><a href="index.html">INICIO</a></li>
-                                <li><a href="acerca.html">ACERCA</a></li>
-                                <li><a href="servicios.html">SERVICIOS</a></li>
-                                <li><a href="contacto.html">CONTACTO</a></li>
+                                <li><a href="index.php">INICIO</a></li>
+                                <li><a href="acerca.php">ACERCA</a></li>
+                                <li><a href="servicios.php">SERVICIOS</a></li>
+                                <li><a href="contacto.php">CONTACTO</a></li>
                                 <li><a href="#"><i class="fas fa-user hide-icon"></i> AUTOGESTIÓN</a></li>
                             </ul>
                         </nav>
@@ -125,7 +125,7 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <ul>
-                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="index.php">Inicio</a></li>
                                 <li>Servicios</li>
                             </ul>
                         </div>
@@ -411,18 +411,18 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-widget widget-info">
                                     <div class="logo">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             <h1 style="font-size: 120%;color:white">CB Seguros Generales</h1>
                                         </a>
                                     </div>
                                     <p>Te ofrecemos las coberturas más completas para proteger tu vida, tu salud, tu
                                         familia y tus bienes personales.</p>
                                     <ul class="footer-socialicons">
-                                        <li><a href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
+                                        <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
                                                     class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                        <li><a href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
+                                        <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
                                                 target="blank"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
@@ -436,9 +436,9 @@
                                     <ul>
                                         <li><a href="#">Términos y condiciones</a></li>
                                         <li><a href="#">Políticas de privacidad</a></li>
-                                        <li><a href="servicios.html">Servicios</a></li>
-                                        <li><a href="contacto.html">Contacto</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="servicios.php">Servicios</a></li>
+                                        <li><a href="contacto.php">Contacto</a></li>
+                                      <!--  <li><a href="faq.php">FAQ</a></li>-->
                                     </ul>
                                 </div>
                             </div>
@@ -475,9 +475,9 @@
                             </div>
                             <div class="col-lg-6 col-12">
                                 <ul class="copyright-links">
-                                    <li><a href="faq.html">FAQ </a></li>
-                                    <li><a href="acerca.html">Acerca</a></li>
-                                    <li><a href="servicios.html">Servicios</a></li>
+                                    <!--<li><a href="faq.php">FAQ </a></li>-->
+                                    <li><a href="acerca.php">Acerca</a></li>
+                                    <li><a href="servicios.php">Servicios</a></li>
                                     <li><a href="#">Privacidad</a></li>
                                 </ul>
                             </div>

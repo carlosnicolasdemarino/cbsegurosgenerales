@@ -60,11 +60,11 @@
 						</div>
 						<div class="col-lg-5">
 							<ul class="header-toplinks">
-								<li><a href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
+								<li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
 											class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
+								<li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
 											class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
@@ -79,7 +79,7 @@
 					<div class="header-bottom">
 
 						<!-- Header Logo -->
-						<a href="index.html" class="header-logo">
+						<a href="index.php" class="header-logo">
 							<!--<img src="assets/images/logo/logo.png" alt="header image">-->
 							<div>
 								<h1 style="font-size: 25px;">CB Seguros Generales</h1>
@@ -90,10 +90,10 @@
 						<!-- Main Navigation -->
 						<nav class="in-navigation">
 							<ul>
-								<li><a href="index.html">INICIO</a></li>
-								<li><a href="acerca.html">ACERCA</a></li>
-								<li><a href="servicios.html">SERVICIOS</a></li>
-								<li><a href="contacto.html">CONTACTO</a></li>
+								<li><a href="index.php">INICIO</a></li>
+								<li><a href="acerca.php">ACERCA</a></li>
+								<li><a href="servicios.php">SERVICIOS</a></li>
+								<li><a href="contacto.php">CONTACTO</a></li>
 								<li><a href="#"><i class="fas fa-user hide-icon"></i> AUTOGESTIÓN</a></li>
 							</ul>
 						</nav>
@@ -130,8 +130,8 @@
 								</h1>
 								<p>Nunca fue mas fácil gestionar tu seguro.</p>
 								<div class="heroslider-buttonholder">
-									<a href="about-us.html" class="in-button in-button-theme">Más información</a>
-									<!--<a href="contact.html" class="in-button in-button-colorwhite">Contacto</a>-->
+									<a href="contacto.php" class="in-button in-button-theme">Más información</a>
+									<!--<a href="contact.php" class="in-button in-button-colorwhite">Contacto</a>-->
 								</div>
 							</div>
 						</div>
@@ -253,7 +253,7 @@
 								<span class="in-service-icon">
 									<i class="flaticon-car"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro automotor</a></h5>
+								<h5><a href="services-details.php">Seguro automotor</a></h5>
 								<p>Tenemos diversas coberturas con servicios adicionales incluidos para que elijas la
 									que más se ajuste a tus necesidades.
 								</p>
@@ -271,7 +271,7 @@
 								<span class="in-service-icon">
 									<i class="flaticon-mortgage"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro de hogar</a></h5>
+								<h5><a href="services-details.php">Seguro de hogar</a></h5>
 								<p>Te ofrecemos la tranquilidad de saber que
 									cuidás de tu hogar, tu familia y todas tus pertenencias.</p>
 								<br>
@@ -289,7 +289,7 @@
 								<span class="in-service-icon">
 									<i class="fa fa-building"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro de comercio</a></h5>
+								<h5><a href="services-details.php">Seguro de comercio</a></h5>
 								<p>Protege el patrimonio y capital de trabajo de tu empresa.
 									Incluye coberturas de incendio y robo, además de la protección ante reclamos de
 									terceros.
@@ -308,7 +308,7 @@
 								<span class="in-service-icon">
 									<i class="fa fa-motorcycle"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro de moto</a></h5>
+								<h5><a href="services-details.php">Seguro de moto</a></h5>
 								<p>Ofrecemos seguros de motos desde la cobertura más básica de responsabilidad civil
 									y más.</p>
 								<br>
@@ -326,7 +326,7 @@
 								<span class="in-service-icon">
 									<i class="flaticon-life-insurence"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro de vida</a></h5>
+								<h5><a href="services-details.php">Seguro de vida</a></h5>
 								<p>En caso de ser sostén de tu hogar, podés asegurar el futuro de tu familia.
 								</p>
 								<br>
@@ -344,7 +344,7 @@
 								<span class="in-service-icon">
 									<i class="fas fa-hard-hat"></i>
 								</span>
-								<h5><a href="services-details.html">Seguros de ART</a></h5>
+								<h5><a href="services-details.php">Seguros de ART</a></h5>
 								<p>Reducí la siniestralidad laboral y obtener amparo ante
 									daños de accidentes de trabajo.
 								</p>
@@ -363,7 +363,7 @@
 								<span class="in-service-icon">
 									<i class="fa fa-fire"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro contra incendios</a></h5>
+								<h5><a href="services-details.php">Seguro contra incendios</a></h5>
 								<p>Con esta cobertura podés proteger tanto edificios y construcciones, como el contenido
 									general dentro de ellos</p>
 								<span class="in-service-transparenticon">
@@ -379,7 +379,7 @@
 								<span class="in-service-icon">
 									<i class="fas fa-handshake"></i>
 								</span>
-								<h5><a href="services-details.html">Seguro de consorcio</a></h5>
+								<h5><a href="services-details.php">Seguro de consorcio</a></h5>
 								<p>Combina las más completas coberturas para resguardar tanto los bienes comunes del
 									edificio como la actividad del administrador.</p>
 								<span class="in-service-transparenticon">
@@ -458,7 +458,7 @@
 									inigualables.
 									Atención personalizada, con nuestras aseguradores como centro de nuestro negocio.
 								</p>
-								<a href="contact.html" class="in-button in-button-white">Contactanos</a>
+								<a href="contacto.php" class="in-button in-button-white">Contactanos</a>
 							</div>
 						</div>
 					</div>
@@ -522,18 +522,18 @@
 							<div class="col-lg-4 col-md-6">
 								<div class="single-widget widget-info">
 									<div class="logo">
-										<a href="index.html">
+										<a href="index.php">
 											<h1 style="font-size: 120%;color:white">CB Seguros Generales</h1>
 										</a>
 									</div>
 									<p>Te ofrecemos las coberturas más completas para proteger tu vida, tu salud, tu
 										familia y tus bienes personales.</p>
 									<ul class="footer-socialicons">
-										<li><a href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
+										<li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
 													class="fab fa-facebook-f"></i></a></li>
 										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-										<li><a href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
+										<li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
 												target="blank"><i class="fab fa-instagram"></i></a></li>
 									</ul>
 								</div>
@@ -547,9 +547,9 @@
 									<ul>
 										<li><a href="#">Términos y condiciones</a></li>
 										<li><a href="#">Políticas de privacidad</a></li>
-										<li><a href="servicios.html">Servicios</a></li>
-										<li><a href="contacto.html">Contacto</a></li>
-										<li><a href="faq.html">FAQ</a></li>
+										<li><a href="servicios.php">Servicios</a></li>
+										<li><a href="contacto.php">Contacto</a></li>
+									<!--	<li><a href="faq.php">FAQ</a></li>-->
 									</ul>
 								</div>
 							</div>
@@ -586,9 +586,9 @@
 							</div>
 							<div class="col-lg-6 col-12">
 								<ul class="copyright-links">
-									<li><a href="faq.html">FAQ</a></li>
-									<li><a href="acerca.html">Acerca</a></li>
-									<li><a href="servicios.html">Servicios</a></li>
+									<!--<li><a href="faq.php">FAQ</a></li>-->
+									<li><a href="acerca.php">Acerca</a></li>
+									<li><a href="servicios.php">Servicios</a></li>
 									<li><a href="#">Privacidad</a></li>
 								
 								</ul>

@@ -60,11 +60,11 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="header-toplinks">
-                                <li><a href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
+                                <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
                                             class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
+                                <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
                                             class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
@@ -79,7 +79,7 @@
                     <div class="header-bottom">
 
                         <!-- Header Logo -->
-                        <a href="index.html" class="header-logo">
+                        <a href="index.php" class="header-logo">
                             <!--<img src="assets/images/logo/logo.png" alt="header image">-->
                             <div>
                                 <h1 style="font-size: 25px;">CB Seguros Generales</h1>
@@ -90,10 +90,10 @@
                         <!-- Main Navigation -->
                         <nav class="in-navigation">
                             <ul>
-                                <li><a href="index.html">INICIO</a></li>
-                                <li><a href="acerca.html">ACERCA</a></li>
-                                <li><a href="servicios.html">SERVICIOS</a></li>
-                                <li><a href="contacto.html">CONTACTO</a></li>
+                                <li><a href="index.php">INICIO</a></li>
+                                <li><a href="acerca.php">ACERCA</a></li>
+                                <li><a href="servicios.php">SERVICIOS</a></li>
+                                <li><a href="contacto.php">CONTACTO</a></li>
                                 <li><a href="#"><i class="fas fa-user hide-icon"></i> AUTOGESTIÓN</a></li>
                             </ul>
                         </nav>
@@ -114,20 +114,22 @@
 
         </header>
         <!--// Header -->
+        <!--// Header -->
 
         <!-- Breadcrumb -->
-        <div class="breadcrumb-area" style="background-color: #163963;" data-black-overlay="4">
+        <div class="breadcrumb-area" data-black-overlay="4"
+            style="background-repeat: no-repeat;background-image:url('assets/images/bg/background-image-21.jpg'); background-size: cover;">
             <div class="container">
                 <div class="in-breadcrumb">
                     <div class="row align-items-center">
                         <div class="col">
                             <ul>
-                                <li><a href="index.html">Inicio</a></li>
-                                <li>Contacto</li>
+                                <li><a href="index.php">Inicio</a></li>
+                                <li>Acerca</li>
                             </ul>
                         </div>
                         <div class="col">
-                            <h6>Contacto</h6>
+                            <h6>Acerca de</h6>
                         </div>
                     </div>
                 </div>
@@ -136,71 +138,62 @@
         <!--// Breadcrumb -->
 
         <!-- Page Conttent -->
-        <main class="page-content" style="padding-top:5%">
+        <main class="page-content">
 
-            <!-- Contact Area -->
-            <div class="contact-area in-section section-padding-lg">
+            <div class="calltoaction-area in-section section-padding-lg " style="padding: 90px 0 !important">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="section-title text-center">
-                                <h2>Contacto</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        
-                        <div class="col-lg-12">
-                            <!-- contact-form-warp Start -->
-                            <div class="contact-form-warp">
-                                <form id="contact-form" action="https://demo.hasthemes.com/gregory-preview/mail.php" method="post">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="input-box">
-                                                <input name="con_name" placeholder="Nombre *" type="text">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="input-box">
-                                                <input name="con_name" placeholder="Apellido *" type="text">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="input-box">
-                                                <input name="con_email" placeholder="Email *" type="email">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="input-box">
-                                                <input name="phone" placeholder="Teléfono *" type="text">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="input-box">
-                                                <textarea name="con_message" placeholder="Su mensaje *"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="contact-submit-btn text-center" >
-                                        <button type="submit" class="submit-btn default-btn mobile-button" style="width:20%;">Enviar</button>
-                                        <p class="form-messege"></p>
-                                    </div>
-                                </form>
-                            </div>
-                            <!-- contact-form-warp End -->
-                        </div>
-                        
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="map-area section-padding-top-lg">
-                                <div id="map"></div>
+                        <div class="col-lg-8">
+                            <div class="in-cta text-center">
+                                <h2 style="color: black;">¿Quiénes somos?</h2>
+                                <p style="color: black;">
+                                    <!--Quienes somos falta-->
+                                    El crecimiento permanente y la eficaz administración de nuestros recursos nos
+                                    convierten en una empresa líder. Nuestra amplia experiencia brindando nuestros
+                                    servicios a nuestros asegurados nos han hecho expertos en una amplia variedad de
+                                    pólizas y companias aseguradoras, conocimiento que trasladamos a un amplio portafolio
+                                    de productos de gran calidad y amplia cobertura para individuos, comercios, pymes y
+                                    grandes empresas.
+
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--// Services Area -->
+            <div class="about-area in-section  bg-white">
+                <div class="container custom-container">
+                    <div class="row no-gutters">
+                        <div class="col-xl-6 col-lg-12 " data-secondary-overlay="5" style="background-repeat: no-repeat;background-image:url('assets/images/bg/background-image-22.jpg'); background-size: cover;">
+                            <div class="about-content heightmatch">
+                                <h2 style="text-align: center;color: white;">Nuestra misión</h2>
+                                <ul class="ul-style-1">
+                                    <p style="text-align: center;color: white;">
+                                        Acompañar a nuestros clientes, ayudándolos a elegir el mejor resguardo para su
+                                        patrimonio, brindando alternativas para la protección de sus activos, a través
+                                        de soluciones sencillas y adecuadas.
+                                    </p>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-6 col-lg-12 " data-secondary-overlay="5" style="background-repeat: no-repeat;background-image:url('assets/images/bg/background-image-6.jpg'); background-size: cover;">
+                            <div class="about-content heightmatch">
+                                <h2 style="text-align: center;color: white;">Nuestra visión</h2>
+                                <ul class="ul-style-1">
+                                    <p style="text-align: center;color: white;">
+                                        Ser reconocidos por nuestros clientes como la mejor productora de seguros,
+                                        respaldados a través de la calidad de nuestros servicios, agilidad y seguridad.
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </main>
         <!--// Page Conttent -->
@@ -258,19 +251,19 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-widget widget-info">
                                     <div class="logo">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             <h1 style="font-size: 120%;color:white">CB Seguros Generales</h1>
                                         </a>
                                     </div>
                                     <p>Te ofrecemos las coberturas más completas para proteger tu vida, tu salud, tu
                                         familia y tus bienes personales.</p>
                                     <ul class="footer-socialicons">
-                                        <li><a href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
+                                        <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
                                                     class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                        <li><a href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
-                                                target="blank"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
+                                              ><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -283,14 +276,12 @@
                                     <ul>
                                         <li><a href="#">Términos y condiciones</a></li>
                                         <li><a href="#">Políticas de privacidad</a></li>
-                                        <li><a href="servicios.html">Servicios</a></li>
-                                        <li><a href="contacto.html">Contacto</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="servicios.php">Servicios</a></li>
+                                        <li><a href="contacto.php">Contacto</a></li>
+                                        <!--<li><a href="fa">FAQ</a></li>-->
                                     </ul>
                                 </div>
                             </div>
-
-
 
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-widget widget-newsletter">
@@ -322,10 +313,11 @@
                             </div>
                             <div class="col-lg-6 col-12">
                                 <ul class="copyright-links">
-                                    <li><a href="faq.html">FAQ </a></li>
-                                    <li><a href="acerca.html">Acerca</a></li>
-                                    <li><a href="servicios.html">Servicios</a></li>
+                                   <!--<li><a href="faq.php">FAQ </a></li>--> 
+                                    <li><a href="acerca.php">Acerca</a></li>
+                                    <li><a href="servicios.php">Servicios</a></li>
                                     <li><a href="#">Privacidad</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -349,135 +341,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-    
-
-
-    <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAq7MrCR1A2qIShmjbtLHSKjcEIEBEEwM"></script>
-    <script>
-        // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 12,
-
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(23.761226, 90.40766), // New York
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [{
-                        "featureType": "administrative",
-                        "elementType": "labels.text.fill",
-                        "stylers": [{
-                            "color": "#01416e"
-                        }]
-                    },
-                    {
-                        "featureType": "landscape",
-                        "elementType": "all",
-                        "stylers": [{
-                            "color": "#13253c"
-                        }]
-                    },
-                    {
-                        "featureType": "poi",
-                        "elementType": "all",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "all",
-                        "stylers": [{
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 45
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.highway",
-                        "elementType": "all",
-                        "stylers": [{
-                            "visibility": "simplified"
-                        }]
-                    },
-                    {
-                        "featureType": "road.arterial",
-                        "elementType": "labels.icon",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "transit",
-                        "elementType": "all",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "all",
-                        "stylers": [{
-                                "color": "#314453"
-                            },
-                            {
-                                "visibility": "on"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "geometry.fill",
-                        "stylers": [{
-                                "lightness": "-12"
-                            },
-                            {
-                                "saturation": "0"
-                            },
-                            {
-                                "color": "#0e3352"
-                            }
-                        ]
-                    }
-                ]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('map');
-
-            // Create the Google Map using our element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-
-            // Let's also add a marker while we're at it
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(23.761226, 90.420766),
-                map: map,
-                title: 'Snazzy!'
-            });
-        }
-    </script>
-
-
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-    </script>
-    <script src="../../www.google-analytics.com/analytics.js" async defer></script>
-
-
 </body>
 
 </html>
