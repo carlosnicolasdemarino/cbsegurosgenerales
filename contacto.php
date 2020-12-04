@@ -29,7 +29,21 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/custom.css">
+
 </head>
+<script>
+    window.addEventListener("load", function() {
+        formulario.telefono.addEventListener("keypress", soloNumeros, false);
+    });
+
+    //Solo permite introducir numeros.
+    function soloNumeros(e) {
+        var key = window.event ? e.which : e.keyCode;
+        if (key < 48 || key > 57) {
+            e.preventDefault();
+        }
+    }
+</script>
 
 <body>
     <!--[if lte IE 9]>
@@ -149,46 +163,52 @@
                         <div class="col-lg-12">
                             <!-- contact-form-warp Start -->
                             <div class="contact-form-warp">
-                                <form id="formulario" name="formulario" method="POST" >
+                                <form id="formulario" name="formulario" action="enviar.php" method="POST" class="contact__form">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <div class="input-box">
                                                 <input id="nombre" name="nombre" placeholder="Nombre *" type="text">
                                             </div>
-										</div>
+                                        </div>
                                         <div class="col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input id="apellido" name="apellido" placeholder="Apellido *" type="text" >
+                                                <input id="apellido" name="apellido" placeholder="Apellido *" type="text">
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input id="email" name="email" placeholder="Email *" type="email" >
+                                                <input id="email" name="email" placeholder="Email *" type="email">
                                             </div>
 
                                         </div>
                                         <div class="col-lg-6 col-md-6">
                                             <div class="input-box">
-                                                <input id="telefono" name="telefono" placeholder="Teléfono *" type="number" >
+                                                <input id="telefono" name="telefono" placeholder="Teléfono *" type="text">
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="input-box">
-                                                <textarea id="mensaje" name="mensaje" placeholder="Su mensaje *" ></textarea>
+                                                <textarea id="mensaje" name="mensaje" placeholder="Su mensaje *"></textarea>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="contact-submit-btn text-center">
-                                        <button type="submit" class="submit-btn default-btn mobile-button" style="width:20%;" name="botonenviar" id="botonenviar">Enviar</button>
+                                        <button type="submit" class="submit-btn default-btn mobile-button" style="width:20%;" name="btn-enviar" id="btn-enviar">Enviar</button>
                                     </div>
+                                    <br>
+                                    <!-- form message -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div id="mensaje-enviado" name="mensaje-enviado" class="alert alert-success contact__msg" style="display: none" role="alert">
+                                                Tu mensaje fue enviado exitosamente.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end message -->
                                 </form>
-                                <br>
-                                <div id="exito" style="display:none">
-                                    Sus datos han sido recibidos con éxito.
-                                </div>
-                                <div id="fracaso" style="display:none">
-                                    Se ha producido un error durante el envío de datos.
-                                </div>
+
+
+
                             </div>
                             <!-- contact-form-warp End -->
                         </div>
@@ -349,7 +369,8 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
@@ -361,8 +382,7 @@
         ga('create', 'UA-XXXXX-Y', 'auto');
         ga('send', 'pageview')
     </script>
-    <script src="../../www.google-analytics.com/analytics.js" async defer></script>
-
 
 </body>
+
 </html>
