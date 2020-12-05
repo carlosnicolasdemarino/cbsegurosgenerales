@@ -29,6 +29,8 @@
 
 	<!-- Custom Styles -->
 	<link rel="stylesheet" href="assets/css/custom.css">
+
+	
 </head>
 
 <body>
@@ -50,22 +52,18 @@
 					<div class="row justify-content-betwween">
 						<div class="col-lg-7" style="padding-right:0px !important">
 							<ul class="header-topcontact">
-								<li><i class="zmdi zmdi-phone"></i>Teléfono : <a
-										href="https://api.whatsapp.com/send?phone=1160533560" target="_blank">(011)
+								<li><i class="zmdi zmdi-phone"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=1160533560" target="_blank">(011)
 										1560533560</a></li>
-								<li><i class="zmdi zmdi-email"></i> E-mail : <a
-										href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
+								<li><i class="zmdi zmdi-email"></i> E-mail : <a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
 								</li>
 							</ul>
 						</div>
 						<div class="col-lg-5">
 							<ul class="header-toplinks">
-								<li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
-											class="fab fa-facebook-f"></i></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-								<li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
-											class="fab fa-instagram"></i></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -119,8 +117,7 @@
 		<div class="heroslider-area in-sliderarrow">
 
 			<!-- Hero Slider Single -->
-			<div class="heroslider animated-heroslider d-flex align-items-center"
-				data-bgimage="assets/images/bg/background-image-1.jpg" data-secondary-overlay="8">
+			<div class="heroslider animated-heroslider d-flex align-items-center" data-bgimage="assets/images/bg/background-image-1.jpg" data-secondary-overlay="8">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-xl-9 col-lg-8">
@@ -215,8 +212,7 @@
 			<!--// Features Area -->
 
 			<!-- Call To Action Area -->
-			<div class="calltoaction-area in-section section-padding-lg bg-image-2" data-secondary-overlay="9"
-				style="padding: 90px 0 !important">
+			<div class="calltoaction-area in-section section-padding-lg bg-image-2" data-secondary-overlay="9" style="padding: 90px 0 !important">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
@@ -408,7 +404,7 @@
 										de soluciones sencillas y adecuadas.
 									</p>
 								</ul>
-							
+
 							</div>
 						</div>
 
@@ -417,8 +413,8 @@
 							<div class="insurencebox heightmatch">
 								<h2>Contáctenos</h2>
 								<h4>Para tu comodidad, te ofrecemos la siguiente vía de comunicación.</h4>
-								<form action="#" class="insurencebox-form">
-									<select>
+								<form action="enviar2.php" class="insurencebox-form contact__form">
+									<select name="seguro" id="seguro">
 										<option value="Seguros automotor">Seguros automotor</option>
 										<option value="Seguros de ART">Seguros de ART</option>
 										<option value="Seguros de motos">Seguros de motos</option>
@@ -431,11 +427,23 @@
 										<option value="Seguros técnicos">Seguros técnicos</option>
 										<option value="Otros">Otros tipos</option>
 									</select>
-									<input type="text" placeholder="Nombre *">
-									<input type="text" placeholder="Email *">
-									<input type="text" placeholder="Teléfono *">
+									<input type="text" name="nombre" id="nombre" placeholder="Nombre *">
+									<input type="text" name="email" id="email" placeholder="Email *">
+									<input type="text" name="telefono" id="telefono" placeholder="Teléfono *">
+									<div style="text-align: center;">
 									<button type="submit" class="in-button">Enviar</button>
+									</div>
 								</form>
+								<br>
+								<!-- form message -->
+								<div class="row">
+									<div class="col-12">
+										<div id="mensaje-enviado" name="mensaje-enviado" class="alert alert-success contact__msg" style="display: none" role="alert">
+											Tu mensaje fue enviado exitosamente.
+										</div>
+									</div>
+								</div>
+								<!-- end message -->
 							</div>
 						</div>
 					</div>
@@ -444,8 +452,7 @@
 			<!--// About Area -->
 			<br>
 			<!-- Call To Action Area -->
-			<div class="calltoaction-area in-section section-padding-lg bg-image-1" data-secondary-overlay="9"
-				style="padding: 90px 0 !important">
+			<div class="calltoaction-area in-section section-padding-lg bg-image-1" data-secondary-overlay="9" style="padding: 90px 0 !important">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
@@ -500,8 +507,7 @@
 									<span class="footer-contact-icon">
 										<i class="zmdi zmdi-email"></i>
 									</span>
-									<p><a
-											href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
+									<p><a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
 									</p>
 								</div>
 							</div>
@@ -529,12 +535,10 @@
 									<p>Te ofrecemos las coberturas más completas para proteger tu vida, tu salud, tu
 										familia y tus bienes personales.</p>
 									<ul class="footer-socialicons">
-										<li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
-													class="fab fa-facebook-f"></i></a></li>
+										<li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i class="fab fa-facebook-f"></i></a></li>
 										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-										<li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
-												target="blank"><i class="fab fa-instagram"></i></a></li>
+										<li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i class="fab fa-instagram"></i></a></li>
 									</ul>
 								</div>
 							</div>
@@ -549,7 +553,7 @@
 										<li><a href="#">Políticas de privacidad</a></li>
 										<li><a href="servicios.php">Servicios</a></li>
 										<li><a href="contacto.php">Contacto</a></li>
-									<!--	<li><a href="faq.php">FAQ</a></li>-->
+										<!--	<li><a href="faq.php">FAQ</a></li>-->
 									</ul>
 								</div>
 							</div>
@@ -590,7 +594,7 @@
 									<li><a href="acerca.php">Acerca</a></li>
 									<li><a href="servicios.php">Servicios</a></li>
 									<li><a href="#">Privacidad</a></li>
-								
+
 								</ul>
 							</div>
 						</div>
@@ -614,6 +618,7 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/plugins.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="main2.js"></script>
 </body>
 
 
