@@ -3,7 +3,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     #Reemplazar este correo por el correo electrónico del destinatario
-    $mail_to = "demo@gmail.com";
+    $mail_to = "info@cbsegurosgenerales.com.ar";
     
     # Envío de datos
     $subject = "Formulario de contacto CB Seguros Generales";

@@ -32,6 +32,19 @@
 
 	
 </head>
+<script>
+  window.addEventListener("load", function() {
+  formulario.telefono.addEventListener("keypress", soloNumeros, false);
+});
+
+//Solo permite introducir numeros.
+function soloNumeros(e){
+  var key = window.event ? e.which : e.keyCode;
+  if (key < 48 || key > 57) {
+    e.preventDefault();
+  }
+}
+</script>
 
 <body>
 	<!--[if lte IE 9]>
@@ -413,7 +426,7 @@
 							<div class="insurencebox heightmatch">
 								<h2>Contáctenos</h2>
 								<h4>Para tu comodidad, te ofrecemos la siguiente vía de comunicación.</h4>
-								<form action="enviar2.php" class="insurencebox-form contact__form">
+								<form action="enviar2.php" class="insurencebox-form contact__form" name="formulario" id="formulario">
 									<select name="seguro" id="seguro">
 										<option value="Seguros automotor">Seguros automotor</option>
 										<option value="Seguros de ART">Seguros de ART</option>
