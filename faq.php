@@ -49,7 +49,7 @@
                     <div class="row justify-content-betwween">
                         <div class="col-lg-6">
                             <ul class="header-topcontact">
-                                <li><i class="zmdi zmdi-phone"></i> PHONE : <a href="#">123412341</a></li>
+                                <li><i class="zmdi zmdi-whatsapp"></i> PHONE : <a href="#">123412341</a></li>
                                 <li><i class="zmdi zmdi-email"></i> E-MAIL : <a href="#">demo@gmail.com</a></li>
                             </ul>
                         </div>
@@ -235,7 +235,7 @@
                             <div class="col">
                                 <div class="footer-contact-block">
                                     <span class="footer-contact-icon">
-                                        <i class="zmdi zmdi-phone"></i>
+                                        <i class="zmdi zmdi-whatsapp"></i>
                                     </span>
                                     <p><a href="#">+0884567863</a><br><a href="#">+0884567863</a></p>
                                 </div>

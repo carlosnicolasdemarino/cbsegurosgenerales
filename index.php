@@ -30,6 +30,7 @@
 	<!-- Custom Styles -->
 	<link rel="stylesheet" href="assets/css/custom.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	
 </head>
 <script>
@@ -45,7 +46,25 @@ function soloNumeros(e){
   }
 }
 </script>
-
+<style>
+    .whatsapp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 120px;
+        right: 25px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+    }
+    
+    .whatsapp-icon {
+        margin-top: 13px;
+    }
+</style>
 <body>
 
 
@@ -63,7 +82,7 @@ function soloNumeros(e){
 					<div class="row justify-content-betwween">
 						<div class="col-lg-7" style="padding-right:0px !important">
 							<ul class="header-topcontact">
-								<li><i class="zmdi zmdi-phone"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
+								<li><i class="zmdi zmdi-whatsapp"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
 										1560533560</a></li>
 								<li><i class="zmdi zmdi-email"></i> E-mail : <a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
 								</li>
@@ -483,6 +502,7 @@ function soloNumeros(e){
 				</div>
 			</div>
 			<!--// Call To Action Area -->
+			<a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 12px;"></i></a>
 
 		</main>
 		<!--// Page Conttent -->
@@ -499,7 +519,7 @@ function soloNumeros(e){
 							<div class="col">
 								<div class="footer-contact-block">
 									<span class="footer-contact-icon">
-										<i class="zmdi zmdi-phone"></i>
+										<i class="zmdi zmdi-whatsapp"></i>
 									</span>
 									<p><a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
 											1560533560</a></p>

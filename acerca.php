@@ -29,8 +29,29 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/custom.css">
-</head>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	
+</head>
+<style>
+    .whatsapp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 120px;
+        right: 25px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+    }
+    
+    .whatsapp-icon {
+        margin-top: 13px;
+    }
+</style>
 <body>
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -50,7 +71,7 @@
                     <div class="row justify-content-betwween">
                         <div class="col-lg-7" style="padding-right:0px !important">
                             <ul class="header-topcontact">
-                                <li><i class="zmdi zmdi-phone"></i>Teléfono : <a
+                                <li><i class="zmdi zmdi-whatsapp"></i>Teléfono : <a
                                         href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
                                         1560533560</a></li>
                                 <li><i class="zmdi zmdi-email"></i> E-mail : <a
@@ -194,6 +215,7 @@
                 </div>
             </div>
 
+            <a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 12px;"></i></a>
 
         </main>
         <!--// Page Conttent -->
@@ -210,7 +232,7 @@
                             <div class="col">
                                 <div class="footer-contact-block">
                                     <span class="footer-contact-icon">
-                                        <i class="zmdi zmdi-phone"></i>
+                                        <i class="zmdi zmdi-whatsapp"></i>
                                     </span>
                                     <p><a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
                                             1560533560</a></p>
