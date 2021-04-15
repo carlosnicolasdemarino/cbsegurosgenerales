@@ -65,7 +65,7 @@ function soloNumeros(e){
 					<div class="row justify-content-betwween">
 						<div class="col-lg-7" style="padding-right:0px !important">
 							<ul class="header-topcontact">
-								<li><i class="zmdi zmdi-phone"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=1160533560" target="_blank">(011)
+								<li><i class="zmdi zmdi-phone"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
 										1560533560</a></li>
 								<li><i class="zmdi zmdi-email"></i> E-mail : <a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
 								</li>
@@ -503,7 +503,7 @@ function soloNumeros(e){
 									<span class="footer-contact-icon">
 										<i class="zmdi zmdi-phone"></i>
 									</span>
-									<p><a href="https://api.whatsapp.com/send?phone=1160533560" target="_blank">(011)
+									<p><a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
 											1560533560</a></p>
 								</div>
 							</div>
