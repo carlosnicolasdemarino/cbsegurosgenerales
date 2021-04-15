@@ -47,9 +47,7 @@ function soloNumeros(e){
 </script>
 
 <body>
-	<!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+
 
 	<!-- Add your site or application content here -->
 
@@ -65,7 +63,7 @@ function soloNumeros(e){
 					<div class="row justify-content-betwween">
 						<div class="col-lg-7" style="padding-right:0px !important">
 							<ul class="header-topcontact">
-								<li><i class="zmdi zmdi-phone"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
+								<li><i class="zmdi zmdi-phone"></i>Teléfono11 : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
 										1560533560</a></li>
 								<li><i class="zmdi zmdi-email"></i> E-mail : <a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
 								</li>
