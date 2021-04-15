@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	
+
 
 </head>
 <script>
@@ -61,11 +61,34 @@
         font-size: 30px;
         z-index: 100;
     }
+
     
+	.whatsapp-text {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 150px;
+		right: 10px;
+		color: #33A8FF;
+		padding-right: 10%;
+		text-align: center;
+		font-size: 20px;
+		z-index: 100;
+		text-align: center;
+	}
+
     .whatsapp-icon {
         margin-top: 13px;
     }
+
+    @media only screen and (max-width: 800px) {
+
+        #llamada {
+            display: none;
+        }
+    }
 </style>
+
 <body>
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -245,6 +268,11 @@
                 </div>
             </div>
             <!--// Services Area -->
+
+            <div id="llamada" name="llamada">
+				<label class="whatsapp-text" >¡Contáctanos ahora!</label>
+
+			</div>
             <a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 15px;"></i></a>
         </main>
         <!--// Page Conttent -->

@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	
+
 </head>
 <style>
     .whatsapp {
@@ -47,11 +47,34 @@
         font-size: 30px;
         z-index: 100;
     }
+
     
+	.whatsapp-text {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 150px;
+		right: 10px;
+		color: #33A8FF;
+		padding-right: 10%;
+		text-align: center;
+		font-size: 20px;
+		z-index: 100;
+		text-align: center;
+	}
+
     .whatsapp-icon {
         margin-top: 13px;
     }
+
+    @media only screen and (max-width: 800px) {
+
+        #llamada {
+            display: none;
+        }
+    }
 </style>
+
 <body>
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -71,22 +94,18 @@
                     <div class="row justify-content-betwween">
                         <div class="col-lg-7" style="padding-right:0px !important">
                             <ul class="header-topcontact">
-                                <li><i class="zmdi zmdi-whatsapp"></i>Teléfono : <a
-                                        href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
+                                <li><i class="zmdi zmdi-whatsapp"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
                                         1560533560</a></li>
-                                <li><i class="zmdi zmdi-email"></i> E-mail : <a
-                                        href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
+                                <li><i class="zmdi zmdi-email"></i> E-mail : <a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-5">
                             <ul class="header-toplinks">
-                                <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
-                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i
-                                            class="fab fa-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la" target="blank"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -138,8 +157,7 @@
         <!--// Header -->
 
         <!-- Breadcrumb -->
-        <div class="breadcrumb-area" data-black-overlay="4"
-            style="background-repeat: no-repeat;background-image:url('assets/images/bg/background-image-21.jpg'); background-size: cover;">
+        <div class="breadcrumb-area" data-black-overlay="4" style="background-repeat: no-repeat;background-image:url('assets/images/bg/background-image-21.jpg'); background-size: cover;">
             <div class="container">
                 <div class="in-breadcrumb">
                     <div class="row align-items-center">
@@ -215,6 +233,10 @@
                 </div>
             </div>
 
+            <div id="llamada" name="llamada">
+                <label class="whatsapp-text">¡Contáctanos ahora!</label>
+
+            </div>
             <a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 15px;"></i></a>
 
         </main>
@@ -251,8 +273,7 @@
                                     <span class="footer-contact-icon">
                                         <i class="zmdi zmdi-email"></i>
                                     </span>
-                                    <p><a
-                                            href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
+                                    <p><a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
                                     </p>
                                 </div>
                             </div>
@@ -280,12 +301,10 @@
                                     <p>Te ofrecemos las coberturas más completas para proteger tu vida, tu salud, tu
                                         familia y tus bienes personales.</p>
                                     <ul class="footer-socialicons">
-                                        <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i
-                                                    class="fab fa-facebook-f"></i></a></li>
+                                        <li><a target="_blank" href="https://www.facebook.com/CB-Seguros-Generales-106622637909579/"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                        <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"
-                                              ><i class="fab fa-instagram"></i></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/c.b.segurosgenerales/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -335,11 +354,11 @@
                             </div>
                             <div class="col-lg-6 col-12">
                                 <ul class="copyright-links">
-                                   <!--<li><a href="faq.php">FAQ </a></li>--> 
+                                    <!--<li><a href="faq.php">FAQ </a></li>-->
                                     <li><a href="acerca.php">Acerca</a></li>
                                     <li><a href="servicios.php">Servicios</a></li>
                                     <li><a href="#">Privacidad</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>

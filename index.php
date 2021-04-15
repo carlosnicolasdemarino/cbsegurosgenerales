@@ -31,40 +31,63 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	
+
 </head>
 <script>
-  window.addEventListener("load", function() {
-  formulario.telefono.addEventListener("keypress", soloNumeros, false);
-});
+	window.addEventListener("load", function() {
+		formulario.telefono.addEventListener("keypress", soloNumeros, false);
+	});
 
-//Solo permite introducir numeros.
-function soloNumeros(e){
-  var key = window.event ? e.which : e.keyCode;
-  if (key < 48 || key > 57) {
-    e.preventDefault();
-  }
-}
+	//Solo permite introducir numeros.
+	function soloNumeros(e) {
+		var key = window.event ? e.which : e.keyCode;
+		if (key < 48 || key > 57) {
+			e.preventDefault();
+		}
+	}
 </script>
 <style>
-    .whatsapp {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 120px;
-        right: 25px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        z-index: 100;
-    }
-    
-    .whatsapp-icon {
-        margin-top: 13px;
-    }
+	.whatsapp {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 120px;
+		right: 25px;
+		background-color: #25d366;
+		color: #FFF;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		z-index: 100;
+	}
+
+	.whatsapp-icon {
+		margin-top: 13px;
+	}
+
+
+	.whatsapp-text {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 150px;
+		right: 10px;
+		color: #33A8FF;
+		padding-right: 10%;
+		text-align: center;
+		font-size: 20px;
+		z-index: 100;
+		text-align: center;
+	}
+
+	@media only screen and (max-width: 800px) {
+
+		#llamada {
+			display: none;
+		}
+	}
 </style>
+
 <body>
 
 
@@ -461,7 +484,7 @@ function soloNumeros(e){
 									<input type="text" name="email" id="email" placeholder="Email *">
 									<input type="text" name="telefono" id="telefono" placeholder="Teléfono *">
 									<div style="text-align: center;">
-									<button type="submit" class="in-button">Enviar</button>
+										<button type="submit" class="in-button">Enviar</button>
 									</div>
 								</form>
 								<br>
@@ -502,6 +525,10 @@ function soloNumeros(e){
 				</div>
 			</div>
 			<!--// Call To Action Area -->
+			<div id="llamada" name="llamada">
+				<label class="whatsapp-text" >¡Contáctanos ahora!</label>
+
+			</div>
 			<a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 15px;"></i></a>
 
 		</main>
