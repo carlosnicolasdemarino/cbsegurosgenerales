@@ -245,7 +245,7 @@
                 </div>
             </div>
             <!--// Services Area -->
-            <a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 12px;"></i></a>
+            <a href="https://wa.me/541160533560" class="whatsapp" target="_blank"> <i class="zmdi zmdi-whatsapp" style="color:white;padding-top: 15px;"></i></a>
         </main>
         <!--// Page Conttent -->
 
