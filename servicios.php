@@ -94,7 +94,7 @@
                     <div class="row justify-content-betwween">
                         <div class="col-lg-7" style="padding-right:0px !important">
                             <ul class="header-topcontact">
-                                <li><i class="zmdi zmdi-whatsapp"></i>Teléfono : <a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
+                                <li><i class="zmdi zmdi-whatsapp"></i>Teléfono : <a href="https://wa.me/541160533560?text=Hola%20me%20gustaria%20recibir%20más%20información%20acerca%20de%20los%20seguros%20que%20brinda. Desde%20ya%20muchas%20gracias." target="_blank">(011)
                                         1560533560</a></li>
                                 <li><i class="zmdi zmdi-email"></i> E-mail : <a href="mailto:info@cbsegurosgenerales.com.ar">info@cbsegurosgenerales.com.ar</a>
                                 </li>
@@ -413,7 +413,7 @@
                                     <span class="footer-contact-icon">
                                         <i class="zmdi zmdi-whatsapp"></i>
                                     </span>
-                                    <p><a href="https://api.whatsapp.com/send?phone=541160533560" target="_blank">(011)
+                                    <p><a href="https://wa.me/541160533560?text=Hola%20me%20gustaria%20recibir%20más%20información%20acerca%20de%20los%20seguros%20que%20brinda. Desde%20ya%20muchas%20gracias." target="_blank">(011)
                                             1560533560</a></p>
                                 </div>
                             </div>
